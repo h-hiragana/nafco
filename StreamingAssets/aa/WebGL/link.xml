@@ -19,8 +19,11 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
@@ -30,14 +33,18 @@
     <type fullname="Framework.View.FixedGameJoystick" preserve="all" />
     <type fullname="Framework.View.GameJoystick" preserve="all" />
     <type fullname="Nafco.View.NafcoView" preserve="all" />
+    <type fullname="Nafco.View.AddBlockView" preserve="all" />
+    <type fullname="Nafco.View.EditBlockView" preserve="all" />
+    <type fullname="Nafco.View.AddItemView" preserve="all" />
+    <type fullname="Nafco.View.EditItemView" preserve="all" />
     <type fullname="Framework.View.BaseView" preserve="all" />
+    <type fullname="Nafco.Model.User" preserve="all" />
     <type fullname="Nafco.Model.Properties" preserve="all" />
     <type fullname="Framework.Controller.NavigationController" preserve="all" />
     <type fullname="Nafco.Controller.NafcoController" preserve="all" />
-    <type fullname="Nafco.Model.Item" preserve="all" />
     <type fullname="Nafco.Model.Block" preserve="all" />
     <type fullname="Nafco.Model.GameCamera" preserve="all" />
-    <type fullname="Nafco.Model.User" preserve="all" />
+    <type fullname="Nafco.Model.Item" preserve="all" />
   </assembly>
   <assembly fullname="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEditor.MonoScript" preserve="all" />
