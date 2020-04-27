@@ -34,7 +34,7 @@
   <meta name="twitter:site" content="@yuta_r_and_d" />
   <meta property="og:url" content="https://h-hiragana.github.io/mirrorcase-demo/" />
   <meta property="og:title" content="ネット上で開催できるイベント体験 | V-EVENT" />
-  <meta property="og:description" content="ネット上で開催できる3Dイベントビューア「V-EVENT」を開発中です。ポリゴンで表現した施設内で、イベントをゲームのように擬似体験できる3Dビューアです。ARを使うことで実際イベントで見ることができるはずだったモノを、お客様の目の前に表示することができます。"/>
+  <meta property="og:description" content="ネット上で開催できる3Dイベントビューア「V-EVENT」を開発中です。ポリゴンで表現した施設内で、イベントをゲームのように擬似体験できる3Dビューアです。ARを使うことで実際イベントで見ることができるはずだったモノを、お客様の目の前に表示することができます。" />
   <meta property="og:image" content="https://h-hiragana.github.io/mirrorcase-demo/img/thumb.jpg" />
 
   <link rel="stylesheet" href="style.css">
@@ -78,16 +78,22 @@
   </div>
 
   <!-- 3Dビューア -->
-  <div class="unity-content m-auto shadow">
-    <div id="unity"></div>
-    <div id="uniry-canvas">
-      <!-- Progress Bar -->
-      <div class="progress-content">
-        <div class="progress">
-          <div id="unity-progress-bar" class="progress-bar bg-info" role="progressbar"></div>
+  <div class="w-100 row">
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8 unity-content">
+      <div id="unity"></div>
+      <div id="uniry-canvas">
+        <!-- Progress Bar -->
+        <div class="progress-content">
+          <div class="progress rounded-0">
+            <div id="unity-progress-bar" class="progress-bar bg-info" role="progressbar"></div>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="col-md-2"></div>
   </div>
 
   <!-- フッター -->
@@ -100,16 +106,7 @@
 
   <!-- ARモーダル -->
   <div id="ar-modal-1" class="ar-modal">
-    <model-viewer ar
-    class="w-100 h-100"
-    alt="Trabant bakelite car"
-    src="img/car/3d.glb"
-    ios-src="img/car/3d.usdz"
-    background-color="#70BCD1"
-    shadow-intensity="0.7"
-    camera-controls
-    interaction-prompt="auto"
-    auto-rotate ar magic-leap>
+    <model-viewer ar class="w-100 h-100" alt="Trabant bakelite car" src="img/car/3d.glb" ios-src="img/car/3d.usdz" background-color="#70BCD1" shadow-intensity="0.7" camera-controls interaction-prompt="auto" auto-rotate ar magic-leap>
     </model-viewer>
   </div>
 
