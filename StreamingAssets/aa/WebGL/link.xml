@@ -32,11 +32,11 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Framework.View.FixedGameJoystick" preserve="all" />
     <type fullname="Framework.View.GameJoystick" preserve="all" />
-    <type fullname="Nafco.View.NafcoView" preserve="all" />
-    <type fullname="Nafco.View.AddBlockView" preserve="all" />
     <type fullname="Nafco.View.EditBlockView" preserve="all" />
-    <type fullname="Nafco.View.AddItemView" preserve="all" />
+    <type fullname="Nafco.View.AddBlockView" preserve="all" />
+    <type fullname="Nafco.View.NafcoView" preserve="all" />
     <type fullname="Nafco.View.EditItemView" preserve="all" />
+    <type fullname="Nafco.View.AddItemView" preserve="all" />
     <type fullname="Framework.View.BaseView" preserve="all" />
     <type fullname="Nafco.Model.User" preserve="all" />
     <type fullname="Nafco.Model.Properties" preserve="all" />
